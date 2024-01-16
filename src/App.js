@@ -1,9 +1,11 @@
-import './App.scss';
+import FluidTypo from './components/fluidTypo/fluidTypo.js';
+import SuscribeForm from './components/suscribeForm/suscribeForm.js';
 
 function App() {
   return (
     <div className="App">
-     <p>hello</p>
+     <FluidTypo />
+     <SuscribeForm />
     </div>
   );
 }
